@@ -15,9 +15,6 @@ namespace BankSystem
             Accounts = new List<Account>();
         }
 
-        public string Name { get; }
-        public List<Account> Accounts { get; }
-
         public bool HasAccount(string accountNumber)
         {
             return Accounts.Any(acc => acc.AccountNumber == accountNumber);
@@ -53,5 +50,8 @@ namespace BankSystem
             }
             Console.WriteLine();
         }
+
+        public string Name { get; }
+        public List<Account> Accounts { get; }
     }
 }

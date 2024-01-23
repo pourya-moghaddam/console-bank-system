@@ -148,7 +148,7 @@ namespace BankSystem
                             customer.DisplayAllAccounts();
                             break;
                         case 0:
-                            return; // Return to the main menu
+                            return;
                         default:
                             Console.WriteLine("Invalid choice. Please try again.");
                             break;

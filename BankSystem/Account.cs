@@ -51,7 +51,6 @@ namespace BankSystem
                 }
             }
         }
-        // --- END OF PROPERTIES ---
 
         public void Deposit(double amount)
         {
